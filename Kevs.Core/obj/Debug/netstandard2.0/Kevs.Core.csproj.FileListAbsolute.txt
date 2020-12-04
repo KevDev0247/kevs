@@ -1,0 +1,9 @@
+D:\Kevs\Kevs.Core\bin\Debug\netstandard2.0\Kevs.Core.deps.json
+D:\Kevs\Kevs.Core\bin\Debug\netstandard2.0\Kevs.Core.dll
+D:\Kevs\Kevs.Core\bin\Debug\netstandard2.0\Kevs.Core.pdb
+D:\Kevs\Kevs.Core\obj\Debug\netstandard2.0\Kevs.Core.csprojAssemblyReference.cache
+D:\Kevs\Kevs.Core\obj\Debug\netstandard2.0\Kevs.Core.AssemblyInfoInputs.cache
+D:\Kevs\Kevs.Core\obj\Debug\netstandard2.0\Kevs.Core.AssemblyInfo.cs
+D:\Kevs\Kevs.Core\obj\Debug\netstandard2.0\Kevs.Core.csproj.CoreCompileInputs.cache
+D:\Kevs\Kevs.Core\obj\Debug\netstandard2.0\Kevs.Core.dll
+D:\Kevs\Kevs.Core\obj\Debug\netstandard2.0\Kevs.Core.pdb

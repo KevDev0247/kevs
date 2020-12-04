@@ -35,3 +35,7 @@ D:\Kevs\Kevs\obj\Debug\netcoreapp2.1\Kevs.csproj.CopyComplete
 D:\Kevs\Kevs\obj\Debug\netcoreapp2.1\Kevs.csprojAssemblyReference.cache
 D:\Kevs\Kevs\obj\Debug\netcoreapp2.1\Kevs.csproj.CoreCompileInputs.cache
 D:\Kevs\Kevs\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\List.cshtml.g.cs
+D:\Kevs\Kevs\bin\Debug\netcoreapp2.1\Kevs.Core.dll
+D:\Kevs\Kevs\bin\Debug\netcoreapp2.1\Kevs.Data.dll
+D:\Kevs\Kevs\bin\Debug\netcoreapp2.1\Kevs.Data.pdb
+D:\Kevs\Kevs\bin\Debug\netcoreapp2.1\Kevs.Core.pdb

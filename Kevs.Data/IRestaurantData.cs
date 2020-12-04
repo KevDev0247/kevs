@@ -1,13 +1,12 @@
 ﻿using Kevs.Core;
-using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace Kevs.Data
 {
     public interface IRestaurantData
     {
-        IEnumerable<Restaurant> GetAll();
+        IEnumerable<Restaurant> GetRestaurantsByName(string name);
     }
 
     public class InMemoryRestaurantData : IRestaurantData
@@ -23,9 +22,10 @@ namespace Kevs.Data
             };
         }
 
-        public IEnumerable<Restaurant> GetAll()
+        public IEnumerable<Restaurant> GetRestaurantsByName(string name)
         {
-            return from r in restaurants
+            return from r in restaurants 
+                   where string.IsNullOrEmpty(name) || r.Name.StartsWith(name)
                    orderby r.Name
                    select r;
         }
