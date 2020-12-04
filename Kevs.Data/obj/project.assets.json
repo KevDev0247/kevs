@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Kevs.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Kevs.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kevs.Core.dll": {}
+        }
       }
     }
   },
@@ -172,10 +182,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Kevs.Core/1.0.0": {
+      "type": "project",
+      "path": "../Kevs.Core/Kevs.Core.csproj",
+      "msbuildProject": "../Kevs.Core/Kevs.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Kevs.Core >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -204,7 +220,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Kevs\\Kevs.Core\\Kevs.Core.csproj": {
+              "projectPath": "D:\\Kevs\\Kevs.Core\\Kevs.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
