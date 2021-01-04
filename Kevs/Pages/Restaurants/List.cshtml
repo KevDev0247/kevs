@@ -1,31 +1,32 @@
 ﻿@page
 @model ListModel
-@{
-    
+@{ 
 }
 
 <h2>Resturants</h2>
 
-<form action="/" method="get">
-    <div class="input-group">
-        <input type="search" class="form-control" 
-               value="" name="searchTerm"/>
-        <span class="input-group-btn">
-            <span class="btn btn-default">
-                <i class="glyphicon glyphicon-search"></i>
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control"
+                   value="" name="searchTerm" />
+            <span class="input-group-btn">
+                <button class="btn btn-default">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
             </span>
-        </span>
+        </div>
     </div>
 </form>
 
 <table class="table">
     @foreach(var resaturant in Model.Restaurants)
     {
-    <tr>
-        <td>@resaturant.Name</td>
-        <td>@resaturant.Location</td>
-        <td>@resaturant.Cuisine</td>
-    </tr>
+        <tr>
+            <td>@resaturant.Name</td>
+            <td>@resaturant.Location</td>
+            <td>@resaturant.Cuisine</td>
+        </tr>
     }
 </table>
 
